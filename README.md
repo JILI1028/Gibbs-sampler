@@ -35,9 +35,6 @@ converge. The report will contain 3 examples and 5 figures to show the histogra
 
 By using the Gibbs sampler, we are able to avoid difficult calculations, replacing them with a sequence of easier calculations. Gelfand and Smith (1990) state that it also has potential in a wide variety of conventional statistical problems.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -46,7 +43,7 @@ By using the Gibbs sampler, we are able to avoid difficult calculations, replaci
 This example is to compare two histograms of samples from the Beta-Binomial distribution. One was obtained using Gibbs sampling, and the other was generated directly from the true marginal.
 
 <div align="center">
-<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-2-1.png" width="500" height="300">
+<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-2-1.png" width="500" height="400">
 </div>
 
 * Example 2: Exponential distributions
@@ -54,7 +51,7 @@ This example is to compare two histograms of samples from the Beta-Binomial dist
 This example uses equation(2) in the report to estimate marginal distribution. X and Y both have conditional distributions that are exponential distributions. The form of this marginal is not easily calculable, so the Gibbs sampler can be applied to the conditionals to obtain the characteristic of f(x).
 
 <div align="center">
-<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-3-1.png" width="500" height="300">
+<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-3-1.png" width="500" height="400">
 </div>
 
 * Example1 (continued)
@@ -62,7 +59,7 @@ This example uses equation(2) in the report to estimate marginal distribution. X
 Analogous to equation (2), we can also estimate the marginal probabilities of X in Example 1.
 
 <div align="center">
-<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-4-1.png" width="500" height="300">
+<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-4-1.png" width="500" height="400">
 </div>
 
 * Example 2 (continued)
@@ -70,15 +67,15 @@ Analogous to equation (2), we can also estimate the marginal probabilities of X 
 This example shows that proper conditional distributions will not always determine a proper marginal distribution. In this case, when the Gibbs sampler is applied to the conditional densities, convergence breaks down.
 
 <div align="center">
-<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-5-1.png" width="500" height="300">
+<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-5-1.png" width="500" height="400">
 </div>
 
 * Example3: More Than Two Variables
 
-Example 3 is to calculate the marginal distribution in a problem with more than two random variables X, Y, and Z. The iteration will also solve the fixxed-point equation like example 2 (continued).
+Example 3 is to calculate the marginal distribution in a problem with more than two random variables X, Y, and Z. The iteration will also solve the fixed-point equation like example 2 (continued).
 
 <div align="center">
-<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-6-1.png" width="500" height="300">
+<img src="https://github.com/JILI1028/Gibbs-sampler/blob/main/images/nas_mwphunnamed-chunk-6-1.png" width="500" height="400">
 </div>
 
 <!-- CONTACT -->
