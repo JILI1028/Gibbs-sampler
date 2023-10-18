@@ -17,7 +17,7 @@
 ## About The Project
 
 This project is to give a simple explanation of how and why the Gibbs sampler works and reproduce the simulations in Casella and George (1992). The Gibbs sampler is a technique for generating random variables from a marginal distribution indirectly, without having to calculate the density. We can illustrate the application of the Gibbs sampler in bivariate situations and some higher dimensional cases. However, the Gibbs sampler doesn't always
-converge. The report will contain 3 examples and 5 figures to show the histograms of samples from Gibbs sampling and make some comparisons with the true marginal densities.
+converge. The report will contain 3 examples and 5 figures to show the histograms of samples from Gibbs sampling and make some comparisons with the true marginal densities.
 
 By using the Gibbs sampler, we are able to avoid difficult calculations, replacing them with a sequence of easier calculations. Gelfand and Smith (1990) state that it also has potential in a wide variety of conventional statistical problems.
 
